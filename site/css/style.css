@@ -1,0 +1,86 @@
+a:hover,
+a:active,
+a:focus {
+    text-decoration:none;
+}
+li {
+    list-style: none;
+}
+.logo h1 {
+    display: none;
+}
+
+.logo-footer{
+	text-align: center;
+	position: relative;
+	top: -75px;
+}
+
+.coluna-footer{
+	position: relative;
+	top: -30px;
+}
+
+.coluna-footer ul li{
+	display: inline;
+	padding-right: 15px;
+	font-family: 'myriadprosemibold';
+	color: #959595;
+	text-transform: uppercase;
+	font-size: 11px;
+
+
+}
+.coluna-footer ul{
+	margin-bottom: 50px;
+}
+.lista-footer {
+	margin: 0px;
+	padding: 0px;
+}
+
+.titulo-footer{
+	font-family: 'myriadprobold';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.copyright{
+	text-align: center;
+	font-family: "myriadprobold";
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #095f97;
+	margin-bottom: 50px;
+}
+
+.endereco{
+	color:#7d7d7d;
+	font-family: 'myriadprosemibold';
+	font-size: 11px;
+	text-align: center;
+}
+@media (max-width: 480px) {  
+    /*celular vertical*/
+    
+}
+@media (min-width:481px) and (max-width: 767px) {  
+    /*celular horizontal*/
+    
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    /*tablet vertical*/
+    
+    
+}
+@media (min-width: 979px) and (max-width: 1199px) {
+    /*tablet horizontal*/
+    
+}
+@media (min-width: 1200px) { 
+    
+}
